@@ -13,6 +13,12 @@ var doc = {
       "name": "tags",
       "type": "text",
       "placeholder": "Add a tag"
+    },
+    {
+      "name": "selections",
+      "label": "This is a selection",
+      "type": "select",
+      "options": ["Option 1", "Option 2"]
     }
   ]
 }
