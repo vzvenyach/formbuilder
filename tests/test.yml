@@ -1,0 +1,8 @@
+controls:
+  - name: question
+    label: Ask a question
+    type: textarea
+    placeholder: Ask a question
+  - name: tags
+    type: text
+    placeholder: Add a tag
