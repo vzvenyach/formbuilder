@@ -6,3 +6,9 @@ controls:
   - name: tags
     type: text
     placeholder: Add a tag
+  - name: status
+    label: There may be a label
+    type: select
+    options:
+    - Option 1
+    - Option 2
