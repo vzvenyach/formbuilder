@@ -26,8 +26,7 @@ var BuildForm = require('./lib/buildform.js');
 var form = new BuildForm(doc);
 var out = form.makeForm();
 
+// console.log(out.join(''));
 
-// Dump the form into a template
-var swig = require('swig');
-var tpl = swig.compileFile('template.html',{autoescape:false});
-console.log(tpl({form_controls: out.join('')}));
+// Start Server
+var server = require('./lib/server.js')(out);
