@@ -4,6 +4,7 @@ var yml = require('js-yaml');
 var BuildForm = require('../lib/buildform.js');
 
 test('build test', function (t) {
+
 	t.plan(4)
   	var doc = yml.safeLoad(fs.readFileSync(__dirname + '/test.yml', 'utf8'));  
     
